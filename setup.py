@@ -55,7 +55,7 @@ setup(
     include_package_data=True,
     install_requires=read_requirements(),
     long_description=read_readme(),
-    name='dustman',
+    name='iref-dustman',
     packages=find_packages(exclude=['*tests*']),
     test_suite='nose.collector',
     version=read_version(),
@@ -63,7 +63,7 @@ setup(
         'console_scripts': ['iref-dustman = dustman.console:entrypoint'],
     },
     package_data={
-        'dustman': ' '.join([
+        'iref-dustman': ' '.join([
             '*.cfg',
             '*.py',
             '*.rst',
