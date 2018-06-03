@@ -2,13 +2,11 @@ Http Dustman
 ============
 
 ``version 0.0.0`` 
-.. image:: https://travis-ci.org/iref/dustman.svg?branch=master
-    :target: https://travis-ci.org/iref/dustman
 
 Jan Ferko's python client to httpbin.org, open sourced under the MIT license
 
-.. image:: https://readthedocs.org/projects/dustman/badge/?version=latest
-   :target: http://dustman.readthedocs.io/en/latest/?badge=latest
+.. image:: https://readthedocs.org/projects/iref-http-dustman/badge/?version=latest
+   :target: http://iref-http-dustman.readthedocs.io/en/latest/?badge=latest
    :alt: Documentation Status
 .. image:: https://travis-ci.org/iref/dustman.svg?branch=master
     :target: https://travis-ci.org/iref/dustman
