@@ -33,3 +33,25 @@ def test_httpbinclient_post():
         "this": "is",
         "a fake": "JSON response",
     })
+
+
+@httpretty.httprettified
+def test_httpbinclient_get_ip():
+    ("HttpBinClient.ip() should return the origin ip address")
+
+    # Given that I fake a response from httbin.org
+    httpretty.register_uri(
+        httpretty.GET,
+        "https://httpbin.org/ip",
+        body=json.dumps({
+            "origin": "147.32.232.146"
+        })
+    )
+
+    client = HttpBinClient()
+
+    # When I call ip()
+    result = client.ip()
+
+    # Then it should return a IP address as string
+    result.should.equal("147.32.232.146")

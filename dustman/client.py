@@ -50,3 +50,9 @@ class HttpBinClient(object):
         url = self.make_full_url("/post")
         response = self.session.post(url, data=data)
         return response.json()
+
+    def ip(self):
+        url = self.make_full_url("/ip")
+        response = self.session.get(url)
+        data = response.json()
+        return data["origin"]
