@@ -1,5 +1,7 @@
 /__virtualenv__/
 /cookiecutter.*.log
+dist/
+docs/build/
 
 *.py[cod]
 
