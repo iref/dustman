@@ -1,7 +1,8 @@
 Http Dustman
 ============
 
-``version 0.0.0`` .. image:: https://travis-ci.org/iref/dustman.svg?branch=master
+``version 0.0.0`` 
+.. image:: https://travis-ci.org/iref/dustman.svg?branch=master
     :target: https://travis-ci.org/iref/dustman
 
 Jan Ferko's python client to httpbin.org, open sourced under the MIT license
